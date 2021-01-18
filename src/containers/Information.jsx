@@ -69,7 +69,7 @@ const Information = () => {
           <div className="Information-item" key={item.ref}>
             <div className="Information-element">
               <h4>{item.title}</h4>
-              <span>{item.price}</span>
+              <span>${item.price}</span>
             </div>
           </div>
         ))}
